@@ -33,20 +33,3 @@ class Solution {
     }
 };
 
-//{ Driver Code Starts.
-int main() {
-    int t;
-    cin >> t;
-    while (t--) {
-        int N;
-        string S;
-
-        cin >> N;
-        cin >> S;
-
-        Solution ob;
-        cout << ob.longestSubstring(S, N) << endl;
-    }
-    return 0;
-}
-// } Driver Code Ends
